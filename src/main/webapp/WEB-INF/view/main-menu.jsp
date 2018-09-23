@@ -5,9 +5,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Welcome</title>
+		<title>SpringMVC-1 - Welcome</title>
 	</head> 
 	<body>
-		<h2>Welcome</h2>
+		<h2>SpringMVC-1 - Welcome</h2>
+		<hr>
+		<a href="showForm">Hello World form</a>
 	</body>
 </html>
