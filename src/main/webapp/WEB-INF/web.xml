@@ -41,5 +41,13 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
+    
+    <servlet>
+        <servlet-name>demoServlet</servlet-name>
+        <servlet-class>org.tyaa.springmvc1.controller.DemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demoServlet</servlet-name>
+        <url-pattern>/processFormByServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

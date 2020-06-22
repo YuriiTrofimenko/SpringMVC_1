@@ -8,5 +8,7 @@
 </head>
 <body>
 	Student name: ${param.studentName}
+	<br>
+	${2 * 2}
 </body>
 </html>
